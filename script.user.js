@@ -12,8 +12,6 @@
 
     $(window).on('hashchange', function () {
 
-        console.log("[HERE] ")
-
         var linkbar = "";
         var hostname = window.location.hostname; // e.g. alexa.amazon.com
 
